@@ -204,6 +204,9 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- vim.keymap.set("n", "<C-S-l>", "<C-w>L", { desc = "Move window to the right" })
 -- vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window to the lower" })
 -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
+--
+-- Custom Keybinds
+vim.keymap.set('i', 'jj', '<Esc>', { desc = 'Exit insert mode' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
